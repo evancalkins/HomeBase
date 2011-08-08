@@ -1,1 +1,29 @@
 /* Website specific styles here */
+
+/* Main Structure */
+
+body { background:url(../images/bg.png); }
+	#container { width:880px; margin:0 auto; background:#ffffff; padding:0 40px 40px 40px; }
+		header { }
+		#content { float:left; width:616px; border-right:1px solid #eee; padding-right:30px;}
+		aside { float:right; width:200px; }
+		footer { width:880px; margin:0 auto; background:#ccc; min-height:60px; padding:40px; margin-bottom:40px; }
+		
+/* Content Widths (If different from defualt above) */
+
+#container {   width:; }
+#container { padding:; }
+#content   {   width:; }
+aside      {   width:; }
+
+/* Navigation */
+
+nav { padding-top:120px; margin-bottom:20px; }
+nav ul { border-bottom:1px solid #ccc; }
+nav ul li {  }
+nav ul li a { display:block; float:left; padding:9px 14px; margin-right:2px; background:#eee; }
+
+/* Footer */
+
+footer h2, footer h3 { margin-top:0; }
+footer #content { border-right:1px solid #999; }

@@ -44,9 +44,26 @@ table {
 	border-spacing: 0;
 }
 
+/* Links */
+
+a { text-decoration:none; color:#a56b20; }
+
+/* Typography */
+h1, h2, h3, h4 { color:#333; }
+h1 { font-size:36px; margin:20px 0; }
+h2 { font-size:24px; margin:14px 0; }
+h3 { font-size:18px; margin:12px 0 }
+h4 { font-size:14px; margin:8px 0 }
+p  { font-size:14px; line-height:20px; color:#666; }
+
 /* Clear Floats */
 
-.group:after {
+.group:after,
+#container:after,
+header:after,
+nav:after,
+footer:after
+ {
 	content: ".";
 	display: block;
 	height: 0;
